@@ -35,4 +35,5 @@ basil.garden = lawn
 cucumber = Plant.new(name: 'Cucumber')
 cucumber.garden = lawn
 
-p lawn.plants
+#p lawn.plants
+puts basil.garden.name
